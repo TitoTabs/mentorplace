@@ -19,8 +19,6 @@ interface DashboardProps {
 }
 
 export const Dashboard = ({ mentors }: DashboardProps) => {
-  console.log(mentors);
-
   const [isVisible, setIsVisible] = useState(true);
   const [closingIds, setClosingIds] = useState<number[]>([]);
 

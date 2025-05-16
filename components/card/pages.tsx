@@ -14,8 +14,6 @@ interface CardProps {
 }
 
 const Card = (mentor: CardProps) => {
-  console.log(mentor.isClosing);
-
   return (
     <div
       className={`bg-white shadow-md rounded-lg p-8 flex flex-col h-full relative ${
